@@ -1,0 +1,3 @@
+my portfolio using gatsby and strapi
+
+link: https://www.youtube.com/watch?v=asB-dUwpH4Y&ab_channel=CodingAddict
