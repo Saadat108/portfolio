@@ -2,12 +2,16 @@ import React from "react"
 import Navbar from "./Navbar"
 import Footer from "./Footer"
 
-const Layout = () => {
+import "./layout.css"
+
+const Layout = ({ children }) => {
+  console.log(children)
   return (
-    <React.Fragment>
+    <>
       <Navbar />
+      {children}
       <Footer />
-    </React.Fragment>
+    </>
   )
 }
 
