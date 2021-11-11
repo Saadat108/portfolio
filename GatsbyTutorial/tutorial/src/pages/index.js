@@ -2,12 +2,14 @@ import React from "react"
 import { Link } from "gatsby"
 import Layout from "../components/Layout"
 import { page, text } from "../examples/home.module.css"
+import { ExampleButton } from "../examples/button"
 
 export default function Home() {
   return (
     <Layout>
       <h2>index page stargs</h2>
       <div className={page}>
+        <ExampleButton>Example Button</ExampleButton>
         <h1>Home page</h1>
         <p className={text}>lorem ipsum dfj fds;kljsdf fj;aklsdfa fsda;klj</p>
       </div>
